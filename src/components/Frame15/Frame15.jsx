@@ -16,22 +16,22 @@ export const Frame15 = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-80 items-center gap-5 p-5 relative top-[57px] left-[50px] bg-[#ffffffcc] ${className}`}
+      className={`flex flex-col w-full max-w-[320px] md:max-w-80 items-center gap-4 md:gap-5 p-4 md:p-5 relative bg-[#ffffffcc] ${className}`}
     >
       <img
-        className="relative self-stretch w-full h-[185px] object-cover"
+        className="relative self-stretch w-full h-auto max-h-[185px] object-cover"
         alt="Rectangle"
         src={rectangle}
       />
 
       <div
-        className={`h-[29px] font-medium text-2xl text-center leading-[normal] relative self-stretch [font-family:'Shippori_Mincho',Helvetica] text-black tracking-[0] ${divClassName}`}
+        className={`h-auto font-medium text-xl md:text-2xl text-center leading-[normal] relative self-stretch [font-family:'Shippori_Mincho',Helvetica] text-black tracking-[0] ${divClassName}`}
       >
         {text}
       </div>
 
       <div
-        className={`font-normal text-base leading-[27.2px] relative self-stretch [font-family:'Shippori_Mincho',Helvetica] text-black tracking-[0] ${divClassNameOverride}`}
+        className={`font-normal text-sm md:text-base leading-6 md:leading-[27.2px] relative self-stretch [font-family:'Shippori_Mincho',Helvetica] text-black tracking-[0] ${divClassNameOverride}`}
       >
         {text1}
       </div>

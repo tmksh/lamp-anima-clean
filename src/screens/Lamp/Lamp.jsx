@@ -7,7 +7,7 @@ import { Group2 } from "./sections/Group2";
 export const Lamp = () => {
   return (
     <div
-      className="flex flex-col items-start relative bg-[#fcfbf9]"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
       data-model-id="4058:2405"
     >
       <Frame12 />

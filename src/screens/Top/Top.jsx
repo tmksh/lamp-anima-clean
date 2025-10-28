@@ -9,7 +9,7 @@ import { SectionComponentNode } from "./sections/SectionComponentNode";
 export const Top = () => {
   return (
     <div
-      className="flex flex-col items-end relative bg-[#fcfbf9]"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
       data-model-id="4058:2143"
     >
       <Frame />

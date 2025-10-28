@@ -7,13 +7,13 @@ import { GroupWrapper } from "./sections/GroupWrapper";
 export const ScreenScreen = () => {
   return (
     <div
-      className="inline-flex flex-col items-start relative bg-[#fcfbf9]"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
       data-model-id="4058:2618"
     >
       <Frame2 />
       <GroupWrapper />
-      <div className="flex w-[1280px] h-[238px] items-center justify-center gap-2.5 px-[90px] py-[50px] relative">
-        <div className="relative w-[1000px] font-normal text-[#111111] text-lg leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
+      <div className="flex w-full max-w-[1280px] h-auto min-h-[150px] md:min-h-[238px] items-center justify-center gap-2.5 px-4 md:px-12 lg:px-[90px] py-8 md:py-[50px] relative">
+        <div className="relative w-full max-w-[1000px] font-normal text-[#111111] text-sm md:text-base lg:text-lg leading-6 md:leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center md:text-left">
           こちらでは、マシンピラティスインストラクター養成コースに関するよくある質問とその回答をご紹介します。受講にあたっての不安や疑問を解消し、安心してコースをスタートできるようサポートします。
         </div>
       </div>

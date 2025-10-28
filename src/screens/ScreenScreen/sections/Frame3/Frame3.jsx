@@ -3,7 +3,7 @@ import { Frame63 } from "../../../../components/Frame63";
 
 export const Frame3 = () => {
   return (
-    <div className="flex flex-col w-[1280px] items-start gap-[50px] pt-20 pb-[120px] px-[140px] relative flex-[0_0_auto]">
+    <div className="flex flex-col w-full max-w-[1280px] items-start gap-8 md:gap-[50px] pt-12 md:pt-20 pb-16 md:pb-[120px] px-4 md:px-12 lg:px-[140px] relative flex-[0_0_auto]">
       <Frame63
         className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
         divClassName="!text-[#111111] !text-[17px] !leading-[28.9px]"

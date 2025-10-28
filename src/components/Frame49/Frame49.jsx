@@ -4,7 +4,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Frame163 } from "../Frame163";
 
@@ -18,18 +18,43 @@ export const Frame49 = ({
   to4,
   to5,
 }) => {
-  return (
-    <div
-      className={`flex w-[1280px] h-[77px] items-center justify-between px-[30px] py-1.5 relative bg-[#ffffff66] ${className}`}
-    >
-      <img
-        className="relative w-[100px] h-[53.95px] z-[1]"
-        alt="Group"
-        src="/img/group.png"
-      />
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-      <div className="inline-flex items-center gap-4 relative flex-[0_0_auto] z-0">
-        <div className="inline-flex h-[25px] items-start gap-5 relative flex-[0_0_auto]">
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <>
+      <div
+        className={`flex w-full max-w-[1280px] mx-auto h-auto min-h-[77px] items-center justify-between px-4 md:px-[30px] py-3 md:py-1.5 relative bg-[#ffffff66] ${className}`}
+      >
+        <Link to="/topu12504u12442u12540u12471u12441">
+          <img
+            className="relative w-[70px] md:w-[100px] h-auto z-[1] cursor-pointer"
+            alt="Group"
+            src="/img/group.png"
+          />
+        </Link>
+
+        <div className="inline-flex items-center gap-2 md:gap-4 relative flex-[0_0_auto] z-0">
+          {/* ハンバーガーメニューボタン（モバイルのみ） */}
+          <button
+            onClick={toggleMenu}
+            className="lg:hidden flex flex-col justify-center items-center w-10 h-10 relative z-50"
+            aria-label="メニュー"
+          >
+            <span className={`block w-6 h-0.5 bg-[#d2a3cb] transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
+            <span className={`block w-6 h-0.5 bg-[#d2a3cb] mt-1.5 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`block w-6 h-0.5 bg-[#d2a3cb] mt-1.5 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+          </button>
+
+          {/* PCメニュー */}
+          <div className="hidden lg:inline-flex h-[25px] items-start gap-3 xl:gap-5 relative flex-[0_0_auto]">
           <Link
             className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-base text-center tracking-[0] leading-[normal] block"
             to={to}
@@ -42,13 +67,6 @@ export const Frame49 = ({
             to={to1}
           >
             講師紹介
-          </Link>
-
-          <Link
-            className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-base tracking-[0] leading-[normal] block"
-            to={to2}
-          >
-            プランのご紹介
           </Link>
 
           <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-base tracking-[0] leading-[normal]">
@@ -77,12 +95,78 @@ export const Frame49 = ({
           </Link>
         </div>
 
+        {/* LINEボタン（PC版のみ） */}
         <Frame163
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+          className="!flex-[0_0_auto] !left-[unset] !top-[unset] hidden lg:inline-flex"
           iconfinderSocial={frame163IconfinderSocial}
         />
       </div>
     </div>
+
+    {/* モバイルメニューオーバーレイ */}
+    {isMenuOpen && (
+      <div className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden" onClick={closeMenu}>
+        <div 
+          className="fixed top-0 right-0 h-full w-[280px] bg-white shadow-lg z-50 overflow-y-auto"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="flex flex-col p-6 pt-20">
+            <Link
+              className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
+              to={to}
+              onClick={closeMenu}
+            >
+              lampの魅力
+            </Link>
+
+            <Link
+              className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
+              to={to1}
+              onClick={closeMenu}
+            >
+              講師紹介
+            </Link>
+
+            <div className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg">
+              コラム
+            </div>
+
+            <Link
+              className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
+              to={to3}
+              onClick={closeMenu}
+            >
+              よくある質問
+            </Link>
+
+            <Link
+              className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
+              to={to4}
+              onClick={closeMenu}
+            >
+              受講の流れ
+            </Link>
+
+            <Link
+              className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
+              to={to5}
+              onClick={closeMenu}
+            >
+              養成カリキュラム
+            </Link>
+
+            {/* モバイルメニュー内のLINEボタン */}
+            <div className="mt-6">
+              <Frame163
+                className="!relative !left-[unset] !top-[unset] w-full justify-center"
+                iconfinderSocial={frame163IconfinderSocial}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+  </>
   );
 };
 

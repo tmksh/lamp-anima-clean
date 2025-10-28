@@ -3,7 +3,7 @@ import { Frame68 } from "../../../../components/Frame68";
 
 export const Frame6 = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-[70px] pt-20 pb-[120px] px-[90px] relative self-stretch w-full flex-[0_0_auto]">
+    <div className="flex flex-col items-center justify-center gap-10 md:gap-[70px] pt-12 md:pt-20 pb-16 md:pb-[120px] px-4 md:px-12 lg:px-[90px] relative self-stretch w-full flex-[0_0_auto]">
       <Frame68
         className="!left-[unset] !top-[unset]"
         divClassName="!text-[#111111]"

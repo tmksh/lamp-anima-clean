@@ -12,16 +12,16 @@ export const Frame163 = ({
 }) => {
   return (
     <div
-      className={`inline-flex h-[55px] items-center justify-center gap-2.5 px-[15px] py-0 relative top-[244px] left-[3272px] bg-[#06c755] rounded-[5px] ${className}`}
+      className={`inline-flex h-[45px] md:h-[55px] items-center justify-center gap-1.5 md:gap-2.5 px-3 md:px-[15px] py-0 relative bg-[#06c755] rounded-[5px] ${className}`}
     >
       <img
-        className="relative w-10 h-10"
+        className="relative w-8 h-8 md:w-10 md:h-10"
         alt="Iconfinder social"
         src={iconfinderSocial}
       />
 
-      <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-base text-center tracking-[0] leading-[normal]">
-        LINE登録はこちら
+      <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-sm md:text-base text-center tracking-[0] leading-[normal] whitespace-nowrap">
+        LINE登録
       </div>
     </div>
   );
