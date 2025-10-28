@@ -56,8 +56,8 @@ export const Frame1 = () => {
               講座内容
             </div>
 
-            <div className="flex flex-col md:flex-row items-start justify-between gap-6 pl-0 pr-0 md:pr-[30px] py-0 relative flex-1 w-full">
-              <div className="inline-flex flex-col items-start gap-2.5 relative flex-[0_0_auto]">
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 pl-0 pr-0 md:pr-[30px] py-0 relative flex-1 w-full">
+              <div className="inline-flex flex-col items-start gap-2.5 relative flex-[0_0_auto] w-full md:w-auto">
                 <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-base md:text-[17px] tracking-[0] leading-8 md:leading-10">
                   ピラティスの歴史
                   <br />
@@ -83,7 +83,7 @@ export const Frame1 = () => {
                 </div>
               </div>
 
-              <div className="inline-flex flex-col items-center gap-2.5 relative flex-[0_0_auto]">
+              <div className="flex flex-col items-center gap-2.5 relative flex-[0_0_auto] w-full md:w-auto">
                 <div className="inline-flex flex-col items-center relative flex-[0_0_auto]">
                   <div className="inline-flex items-center justify-center gap-2.5 px-3 md:px-[15px] py-2 md:py-2.5 relative flex-[0_0_auto] bg-[#d2a3cb] rounded-[5px]">
                     <div className="w-fit mt-[-1.00px] font-bold text-white text-sm md:text-[17px] leading-tight md:leading-[17px] text-center relative [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
@@ -99,7 +99,7 @@ export const Frame1 = () => {
                 </div>
 
                 <img
-                  className="relative w-[calc(100vw-3rem)] max-w-[340px] md:w-[180px] h-auto"
+                  className="relative w-[calc(100vw-8rem)] max-w-[340px] md:w-[180px] h-auto"
                   alt="Element"
                   src="/img/2025-10-20-0-37-16-1.png"
                 />

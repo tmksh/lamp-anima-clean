@@ -40,7 +40,7 @@ export const SectionComponentNode = () => {
 
   // カード幅の計算（ギャップ込み）
   const getCardWidth = () => {
-    if (cardsPerView === 1) return '100%';
+    if (cardsPerView === 1) return '100%'; // モバイル: 100%幅のコンテナ
     if (cardsPerView === 2) return 'calc(50% - 8px)';
     return 'calc(25% - 12px)';
   };
@@ -57,26 +57,29 @@ export const SectionComponentNode = () => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[1280px] px-4 md:px-0">
+      <div className="relative w-full max-w-[1280px] px-0 md:px-0">
         <div className="overflow-hidden relative">
           <div 
-            className="flex transition-transform duration-500 ease-in-out gap-4" 
+            className="flex transition-transform duration-500 ease-in-out gap-4"
             style={{ 
-              transform: `translateX(calc(-${currentSlide * (100 / cardsPerView)}% - ${currentSlide * 16}px))`
+              transform: `translateX(calc(-${currentSlide * (100 / cardsPerView)}% - ${currentSlide * 16}px))`,
+              justifyContent: cardsPerView === 1 ? 'center' : 'flex-start'
             }}
           >
             {[...Array(totalCards)].map((_, index) => (
               <div 
                 key={index} 
-                className="flex-shrink-0"
+                className="flex-shrink-0 flex justify-center px-4 md:px-0"
                 style={{ width: getCardWidth() }}
               >
-                <Frame22
-                  className="!h-[380px] md:!h-[443px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                  divClassName="!text-[#a2a2a2]"
-                  divClassName1="!text-[#111111]"
-                  divClassNameOverride="!text-[#111111]"
-                />
+                <div className="w-full max-w-[350px] md:max-w-full">
+                  <Frame22
+                    className="!h-[380px] md:!h-[443px] !flex-[0_0_auto] !left-[unset] !top-[unset] w-full"
+                    divClassName="!text-[#a2a2a2]"
+                    divClassName1="!text-[#111111]"
+                    divClassNameOverride="!text-[#111111]"
+                  />
+                </div>
               </div>
             ))}
           </div>
