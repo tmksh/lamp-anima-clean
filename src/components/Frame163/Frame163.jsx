@@ -11,8 +11,11 @@ export const Frame163 = ({
   iconfinderSocial = "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-3.svg",
 }) => {
   return (
-    <div
-      className={`inline-flex h-[45px] md:h-[55px] items-center justify-center gap-1.5 md:gap-2.5 px-3 md:px-[15px] py-0 relative bg-[#06c755] rounded-[5px] ${className}`}
+    <a
+      href="https://lin.ee/Txaoupt"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-flex h-[45px] md:h-[55px] items-center justify-center gap-1.5 md:gap-2.5 px-3 md:px-[15px] py-0 relative bg-[#06c755] rounded-[5px] hover:bg-[#05b54a] transition-colors cursor-pointer ${className}`}
     >
       <img
         className="relative w-8 h-8 md:w-10 md:h-10"
@@ -23,7 +26,7 @@ export const Frame163 = ({
       <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-sm md:text-base text-center tracking-[0] leading-[normal] whitespace-nowrap">
         LINE登録
       </div>
-    </div>
+    </a>
   );
 };
 

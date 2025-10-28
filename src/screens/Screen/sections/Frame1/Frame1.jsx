@@ -99,7 +99,7 @@ export const Frame1 = () => {
                 </div>
 
                 <img
-                  className="relative w-[140px] md:w-[180px] h-auto"
+                  className="relative w-[calc(100vw-3rem)] max-w-[340px] md:w-[180px] h-auto"
                   alt="Element"
                   src="/img/2025-10-20-0-37-16-1.png"
                 />

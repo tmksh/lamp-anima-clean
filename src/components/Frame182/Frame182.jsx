@@ -251,15 +251,6 @@ export const Frame182 = ({
                 </Link>
               </div>
 
-              <div className="flex flex-col md:inline-flex items-start justify-end gap-3 md:gap-[15px] relative flex-[0_0_auto]">
-                <div className="relative w-fit font-semibold text-[#111111] text-xs md:text-xs text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-                  プライバシーポリシー
-                </div>
-
-                <div className="relative w-fit font-semibold text-[#111111] text-xs md:text-xs text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-                  キャンセルポリシー
-                </div>
-              </div>
             </div>
           </div>
 
