@@ -213,13 +213,13 @@ export const Frame1 = () => {
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 relative w-full justify-center">
             <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-full shadow-md">
               <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-sm md:text-base tracking-[0] leading-[normal]">
-                ✨ 分割払い対応
+                分割払い対応
               </div>
             </div>
             
             <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#d2a3cb] to-[#e8b5d8] rounded-full shadow-md">
               <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-sm md:text-base tracking-[0] leading-[normal]">
-                ✨ 教材費込み
+                教材費込み
               </div>
             </div>
           </div>

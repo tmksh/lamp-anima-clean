@@ -4,7 +4,7 @@ export const Frame = () => {
   return (
     <div className="flex flex-col w-full max-w-[1280px] h-auto min-h-[577px] md:min-h-[797px] items-start gap-2.5 relative">
       <div className="absolute top-[77px] left-0 md:left-[86px] w-full md:w-[calc(100%-86px)] max-w-[1194px] h-[500px] md:h-[720px] z-[1]">
-        <div className="flex flex-col w-full h-full items-start justify-end gap-5 md:gap-[30px] pt-20 md:pt-[164px] pb-12 md:pb-[70px] px-4 md:px-12 lg:px-[75px] relative bg-[url(/img/frame-80.png)] bg-cover bg-[50%_50%]">
+        <div className="flex flex-col w-full h-full items-start justify-end gap-5 md:gap-[30px] pt-20 md:pt-[164px] pb-12 md:pb-[70px] px-4 md:px-12 lg:px-[75px] relative bg-[url(/img/frame-80.png)] bg-cover bg-[50%_50%]" style={{backgroundImage: 'url(/img/frame-80.png)', willChange: 'auto'}}>
           <div className="inline-flex flex-col items-start gap-5 md:gap-[30px] relative flex-[0_0_auto] max-w-full">
             {/* モバイル版のテキスト */}
             <div className="md:hidden inline-flex items-center justify-center gap-2.5 px-4 py-2 relative flex-[0_0_auto] bg-[#d2a3cb] rounded-[5px] w-full">
