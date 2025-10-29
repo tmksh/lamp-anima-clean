@@ -24,7 +24,7 @@ export const Frame = () => {
             </div>
 
             <div className="md:hidden inline-flex flex-col items-start gap-2.5 px-4 py-3 relative flex-[0_0_auto] bg-[#ffffffa6] rounded-[5px] w-full">
-              <div className="relative w-full font-semibold text-[#111111] text-lg leading-8 [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center">
+              <div className="relative w-full font-semibold text-[#111111] text-[15px] leading-7 [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center">
                 実践的なスキルと確かな指導力を手に入れ<br />
                 誰かの成長を支えるインストラクターに
               </div>

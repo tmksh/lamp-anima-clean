@@ -173,12 +173,15 @@ export const Frame1 = () => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[1000px] h-auto aspect-video min-h-[300px] md:min-h-[450px] lg:min-h-[562px]">
-        <div className="absolute top-0 left-0 w-full h-full bg-[#d9d9d9] rounded-lg" />
-
-        <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-xl md:text-2xl tracking-[2px] md:tracking-[4.80px] leading-10 whitespace-nowrap">
-          動画
-        </div>
+      <div className="relative w-full max-w-[1000px] h-auto aspect-video">
+        <video 
+          className="w-full h-full rounded-lg object-cover"
+          controls
+          playsInline
+        >
+          <source src="/img/4人指導.mp4" type="video/mp4" />
+          お使いのブラウザは動画タグをサポートしていません。
+        </video>
       </div>
     </div>
   );
