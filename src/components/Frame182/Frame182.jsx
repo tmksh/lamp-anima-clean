@@ -85,9 +85,9 @@ export const Frame182 = ({
               src="/img/rectangle-55.png"
             />
 
-            <div className="grid grid-cols-2 lg:grid-cols-3 w-full max-w-[1100px] items-center justify-center gap-4 lg:gap-6 relative flex-[0_0_auto] z-10">
+            <div className="grid grid-cols-2 lg:flex lg:flex-wrap lg:justify-center w-full max-w-[1100px] items-center gap-4 lg:gap-6 relative flex-[0_0_auto] z-10">
               <Link
-                className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-full lg:w-[calc(33.333%-16px)] h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to}
               >
                 <img
@@ -102,7 +102,7 @@ export const Frame182 = ({
               </Link>
 
               <Link
-                className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-full lg:w-[calc(33.333%-16px)] h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to1}
               >
                 <img
@@ -116,20 +116,8 @@ export const Frame182 = ({
                 </div>
               </Link>
 
-              <div className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]">
-                <img
-                  className="absolute top-2 md:top-2.5 right-0 md:left-auto w-[60px] md:w-[70px] lg:w-[80px] h-auto opacity-50"
-                  alt="Path"
-                  src={path2}
-                />
-
-                <div className="relative w-fit font-semibold text-white text-base md:text-lg lg:text-xl text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] z-10">
-                  コラム
-                </div>
-              </div>
-
               <Link
-                className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-full lg:w-[calc(33.333%-16px)] h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to3}
               >
                 <img
@@ -144,7 +132,7 @@ export const Frame182 = ({
               </Link>
 
               <Link
-                className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-full lg:w-[calc(33.333%-16px)] h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to4}
               >
                 <div className="relative w-fit font-semibold text-white text-base md:text-lg lg:text-xl text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] z-10">
@@ -159,7 +147,7 @@ export const Frame182 = ({
               </Link>
 
               <Link
-                className="flex flex-col w-full h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-full lg:w-[calc(33.333%-16px)] h-[100px] md:h-[110px] lg:h-[126px] items-center justify-center gap-2.5 px-4 py-8 relative bg-[#d2a3cb] rounded-[10px] overflow-hidden border-2 md:border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to5}
               >
                 <img
@@ -224,10 +212,6 @@ export const Frame182 = ({
                 >
                   講師紹介
                 </Link>
-
-                <div className="relative w-fit font-semibold text-[#111111] text-sm md:text-[15px] text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] opacity-50">
-                  コラム
-                </div>
 
                 <Link 
                   to={to4}

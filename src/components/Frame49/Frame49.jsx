@@ -69,10 +69,6 @@ export const Frame49 = ({
             講師紹介
           </Link>
 
-          <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-base tracking-[0] leading-[normal]">
-            コラム
-          </div>
-
           <Link
             className="text-center relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-base tracking-[0] leading-[normal] block"
             to={to3}
@@ -126,10 +122,6 @@ export const Frame49 = ({
             >
               講師紹介
             </Link>
-
-            <div className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg">
-              コラム
-            </div>
 
             <Link
               className="py-4 border-b border-gray-200 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-lg"
