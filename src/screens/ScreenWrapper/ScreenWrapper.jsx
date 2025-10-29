@@ -3,6 +3,7 @@ import { Frame5 } from "./sections/Frame5";
 import { Frame6 } from "./sections/Frame6";
 import { Frame7 } from "./sections/Frame7";
 import { Group1 } from "./sections/Group1";
+import { FixedCTA } from "../../components/FixedCTA";
 
 export const ScreenWrapper = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ export const ScreenWrapper = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2575"
     >
       <Frame5 />
@@ -46,6 +47,7 @@ export const ScreenWrapper = () => {
 
       <Frame6 />
       <Frame7 />
+      <FixedCTA />
     </div>
   );
 };

@@ -67,6 +67,7 @@ export const Frame10 = () => {
             className="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
             controls
             playsInline
+            preload="metadata"
           >
             <source src="/img/sachiko-video.mp4" type="video/mp4" />
             お使いのブラウザは動画タグに対応していません。
@@ -149,6 +150,7 @@ export const Frame10 = () => {
             className="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
             controls
             playsInline
+            preload="metadata"
           >
             <source src="/img/lisa-video.mp4" type="video/mp4" />
             お使いのブラウザは動画タグに対応していません。

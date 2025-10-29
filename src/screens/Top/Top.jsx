@@ -6,6 +6,7 @@ import { Frame182Wrapper } from "./sections/Frame182Wrapper";
 import { FrameWrapper } from "./sections/FrameWrapper";
 import { SectionComponentNode } from "./sections/SectionComponentNode";
 import { Frame49 } from "../../components/Frame49";
+import { FixedCTA } from "../../components/FixedCTA";
 
 export const Top = () => {
   useEffect(() => {
@@ -36,7 +37,7 @@ export const Top = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2143"
     >
       <Frame49
@@ -54,6 +55,7 @@ export const Top = () => {
       <Div />
       <SectionComponentNode />
       <Frame182Wrapper />
+      <FixedCTA />
     </div>
   );
 };

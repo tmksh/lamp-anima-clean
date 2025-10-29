@@ -105,9 +105,9 @@ export const Frame49 = ({
 
     {/* モバイルメニューオーバーレイ */}
     {isMenuOpen && (
-      <div className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden" onClick={closeMenu}>
+      <div className="fixed inset-0 bg-black bg-opacity-50 z-[55] lg:hidden" onClick={closeMenu}>
         <div 
-          className="fixed top-0 right-0 h-full w-[280px] bg-white shadow-lg z-50 overflow-y-auto"
+          className="fixed top-0 right-0 h-full w-[280px] bg-white shadow-lg z-[60] overflow-y-auto"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex flex-col p-6 pt-20">

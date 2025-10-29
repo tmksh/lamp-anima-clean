@@ -3,6 +3,7 @@ import { Frame1 } from "./sections/Frame1";
 import { Frame49Wrapper } from "./sections/Frame49Wrapper";
 import { FrameInstanceWrapper } from "./sections/FrameInstanceWrapper";
 import { Group } from "./sections/Group";
+import { FixedCTA } from "../../components/FixedCTA";
 
 export const Screen = () => {
   useEffect(() => {
@@ -33,13 +34,14 @@ export const Screen = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2322"
     >
       <Frame49Wrapper />
       <Group />
       <Frame1 />
       <FrameInstanceWrapper />
+      <FixedCTA />
     </div>
   );
 };

@@ -178,6 +178,7 @@ export const Frame1 = () => {
           className="w-full h-full rounded-lg object-cover"
           controls
           playsInline
+          preload="metadata"
         >
           <source src="/img/4人指導.mp4" type="video/mp4" />
           お使いのブラウザは動画タグをサポートしていません。
