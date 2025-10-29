@@ -1,19 +1,9 @@
 import React from "react";
-import { Frame49 } from "../../../../components/Frame49";
 
 export const Frame = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1280px] h-auto min-h-[500px] md:min-h-[720px] items-start gap-2.5 relative">
-      <Frame49
-        className="!z-[2] !w-full"
-        to="/lampu12398u32057u20171"
-        to1="/u35611u24107u32057u20171"
-        to2="/u32946u25104u12459u12522u12461u12517u12521u12512"
-        to3="/u12424u12367u12354u12427u36074u21839"
-        to4="/u21463u35611u12398u27969u12428"
-        to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
-      />
-      <div className="absolute top-0 left-0 md:left-[86px] w-full md:w-[calc(100%-86px)] max-w-[1194px] h-[500px] md:h-[720px] z-[1]">
+    <div className="flex flex-col w-full max-w-[1280px] h-auto min-h-[577px] md:min-h-[797px] items-start gap-2.5 relative">
+      <div className="absolute top-[77px] left-0 md:left-[86px] w-full md:w-[calc(100%-86px)] max-w-[1194px] h-[500px] md:h-[720px] z-[1]">
         <div className="flex flex-col w-full h-full items-start justify-end gap-5 md:gap-[30px] pt-20 md:pt-[164px] pb-12 md:pb-[70px] px-4 md:px-12 lg:px-[75px] relative bg-[url(/img/frame-80.png)] bg-cover bg-[50%_50%]">
           <div className="inline-flex flex-col items-start gap-5 md:gap-[30px] relative flex-[0_0_auto] max-w-full">
             {/* モバイル版のテキスト */}

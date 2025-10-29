@@ -5,6 +5,7 @@ import { Frame } from "./sections/Frame";
 import { Frame182Wrapper } from "./sections/Frame182Wrapper";
 import { FrameWrapper } from "./sections/FrameWrapper";
 import { SectionComponentNode } from "./sections/SectionComponentNode";
+import { Frame49 } from "../../components/Frame49";
 
 export const Top = () => {
   useEffect(() => {
@@ -38,6 +39,15 @@ export const Top = () => {
       className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden"
       data-model-id="4058:2143"
     >
+      <Frame49
+        frame163IconfinderSocial="/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-2.svg"
+        to="/lampu12398u32057u20171"
+        to1="/u35611u24107u32057u20171"
+        to2="/u32946u25104u12459u12522u12461u12517u12521u12512"
+        to3="/u12424u12367u12354u12427u36074u21839"
+        to4="/u21463u35611u12398u27969u12428"
+        to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
+      />
       <Frame />
       <FrameWrapper />
       <DivWrapper />

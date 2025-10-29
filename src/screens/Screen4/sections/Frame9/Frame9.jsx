@@ -2,7 +2,7 @@ import React from "react";
 
 export const Frame9 = () => {
   return (
-    <div className="flex flex-col items-center w-full relative flex-[0_0_auto]">
+    <div className="flex flex-col items-center w-full relative flex-[0_0_auto] pt-[77px]">
       <div className="relative w-full max-w-[1280px] h-auto min-h-[400px] md:min-h-[500px]">
         <img
           className="absolute top-0 left-0 w-full h-[300px] md:h-[400px] object-cover"
