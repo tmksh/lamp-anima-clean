@@ -6,7 +6,7 @@ export const Group1 = () => {
       <img
         className="absolute top-[77px] left-0 w-full h-[300px] md:h-[400px] object-cover"
         alt="Rectangle"
-        src="/img/rectangle-60-2.png"
+        src="/img/juko-nagare.jpg"
       />
 
       <div className="flex flex-col w-[90%] max-w-[600px] items-center justify-center px-6 md:px-[150px] py-[25px] absolute top-[317px] md:top-[417px] left-[50%] -translate-x-1/2 bg-[#fcfbf9] rounded-[10px]">

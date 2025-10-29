@@ -4,9 +4,9 @@ import { DivWrapper } from "./sections/DivWrapper";
 import { Frame } from "./sections/Frame";
 import { Frame182Wrapper } from "./sections/Frame182Wrapper";
 import { FrameWrapper } from "./sections/FrameWrapper";
-import { SectionComponentNode } from "./sections/SectionComponentNode";
 import { Frame49 } from "../../components/Frame49";
 import { FixedCTA } from "../../components/FixedCTA";
+import { ScrollAnimation } from "../../components/ScrollAnimation";
 
 export const Top = () => {
   useEffect(() => {
@@ -37,7 +37,7 @@ export const Top = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0 page-fade-in"
       data-model-id="4058:2143"
     >
       <Frame49
@@ -50,11 +50,18 @@ export const Top = () => {
         to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
       />
       <Frame />
-      <FrameWrapper />
-      <DivWrapper />
-      <Div />
-      <SectionComponentNode />
-      <Frame182Wrapper />
+      <ScrollAnimation animation="fade-in">
+        <FrameWrapper />
+      </ScrollAnimation>
+      <ScrollAnimation animation="fade-in">
+        <DivWrapper />
+      </ScrollAnimation>
+      <ScrollAnimation animation="fade-in">
+        <Div />
+      </ScrollAnimation>
+      <ScrollAnimation animation="fade-in">
+        <Frame182Wrapper />
+      </ScrollAnimation>
       <FixedCTA />
     </div>
   );

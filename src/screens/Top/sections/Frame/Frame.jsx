@@ -30,7 +30,7 @@ export const Frame = () => {
 
             <div className="hidden md:inline-flex flex-col items-start gap-2.5 px-5 py-[15px] relative flex-[0_0_auto] bg-[#ffffffa6] rounded-[5px] max-w-full">
               <div className="inline-flex flex-col items-center justify-center pl-2.5 pr-0 py-0 relative flex-[0_0_auto]">
-                <div className="relative w-fit mt-[-1.00px] font-semibold text-[#111111] text-xl lg:text-2xl leading-[40.8px] whitespace-nowrap [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
+                <div className="relative w-fit mt-[-1.00px] font-semibold text-[#111111] text-xl lg:text-2xl leading-[40.8px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
                   資格だけでは足りない"教える力"を支える
                 </div>
 
@@ -42,7 +42,7 @@ export const Frame = () => {
               </div>
 
               <div className="inline-flex flex-col items-start pl-2.5 pr-0 py-0 relative flex-[0_0_auto]">
-                <div className="relative w-fit mt-[-1.00px] font-semibold text-[#111111] text-xl lg:text-2xl leading-[40.8px] whitespace-nowrap [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
+                <div className="relative w-fit mt-[-1.00px] font-semibold text-[#111111] text-xl lg:text-2xl leading-[40.8px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
                   レッスン設計まで学べる6日間。
                 </div>
 

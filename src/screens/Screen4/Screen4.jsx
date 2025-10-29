@@ -34,7 +34,7 @@ export const Screen4 = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0 page-fade-in"
       data-model-id="4058:2503"
     >
       <Frame8 />

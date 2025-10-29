@@ -25,7 +25,7 @@ export const Frame6 = () => {
         className="!left-[unset] !top-[unset]"
         divClassName="!text-[#111111]"
         divClassNameOverride="!h-[unset] !text-[#111111] !text-[17px] !leading-[28.9px]"
-        rectangle="/img/rectangle-64-3.png"
+        rectangle="/img/jishu-ren.jpg"
         text="自主練習後、テスト受講"
         text1="自主練習を重ねて実力を高め、実技テストに臨みます。インストラクターとしての技術と知識を確認します。"
         text2="03"
