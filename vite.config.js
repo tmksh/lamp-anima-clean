@@ -13,4 +13,19 @@ export default defineConfig(({ mode }) => ({
       plugins: [tailwind()],
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+        },
+      },
+    },
+  },
+  server: {
+    // 開発サーバーの最適化
+    fs: {
+      strict: false,
+    },
+  },
 }));
