@@ -67,10 +67,9 @@ export const Frame10 = () => {
             className="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
             controls
             playsInline
-            preload="auto"
-            poster="/img/0125-xlarge-1.png"
+            preload="metadata"
           >
-            <source src="/img/sachiko-video.mp4" type="video/mp4" />
+            <source src="/img/sachiko-video.mp4#t=0.1" type="video/mp4" />
             お使いのブラウザは動画タグに対応していません。
           </video>
         </div>
@@ -151,10 +150,9 @@ export const Frame10 = () => {
             className="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
             controls
             playsInline
-            preload="auto"
-            poster="/img/0078-xlarge-1.png"
+            preload="metadata"
           >
-            <source src="/img/lisa-video.mp4" type="video/mp4" />
+            <source src="/img/lisa-video.mp4#t=0.1" type="video/mp4" />
             お使いのブラウザは動画タグに対応していません。
           </video>
         </div>

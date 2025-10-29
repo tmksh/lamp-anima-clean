@@ -61,15 +61,15 @@ export const Frame182 = ({
         />
       </div>
 
-      <div className="flex flex-col items-center gap-2.5 pt-8 md:pt-[60px] pb-0 px-0 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-center gap-2.5 pt-8 md:pt-[60px] pb-0 px-4 md:px-12 lg:px-[340px] relative self-stretch w-full flex-[0_0_auto]">
         <a
           href="https://lamp-pilates.jp/"
           target="_blank"
           rel="noopener noreferrer"
-          className="relative w-full h-auto cursor-pointer group"
+          className="relative w-full max-w-[600px] h-auto cursor-pointer group"
         >
           <img
-            className="relative w-full h-auto object-cover transition-transform group-hover:scale-[1.02]"
+            className="relative w-full h-auto object-cover rounded-lg transition-transform group-hover:scale-105"
             alt="ピラティススタジオ lamp - 公式サイトはこちらから"
             src="/img/image-15.png"
           />
