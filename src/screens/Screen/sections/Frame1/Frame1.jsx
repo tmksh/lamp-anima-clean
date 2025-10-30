@@ -2,9 +2,9 @@ import React from "react";
 
 export const Frame1 = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1280px] items-start gap-12 md:gap-20 pt-12 md:pt-20 pb-16 md:pb-[120px] px-4 md:px-12 lg:px-[140px] relative flex-[0_0_auto]">
-      <div className="flex flex-col items-start gap-10 md:gap-[60px] relative self-stretch w-full flex-[0_0_auto]">
-        <div className="flex flex-col items-start gap-5 relative self-stretch w-full flex-[0_0_auto]">
+    <div className="flex flex-col w-full items-center gap-12 md:gap-20 pt-12 md:pt-20 pb-16 md:pb-[120px] px-4 md:px-8 relative flex-[0_0_auto]">
+      <div className="flex flex-col items-start gap-10 md:gap-[60px] relative w-full max-w-[1000px] flex-[0_0_auto]">
+        <div className="flex flex-col items-start gap-5 relative w-full flex-[0_0_auto]">
           <img
             className="relative self-stretch w-full h-[3px] mt-[-3.00px]"
             alt="Line"
