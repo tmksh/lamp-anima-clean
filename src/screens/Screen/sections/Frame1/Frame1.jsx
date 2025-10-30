@@ -61,25 +61,25 @@ export const Frame1 = () => {
                 <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-base md:text-[17px] tracking-[0] leading-8 md:leading-10">
                   ピラティスの歴史
                   <br />
+                  イクイップメントの構造
+                  <br />
                   解剖学
                   <br />
-                  コアアライメント
+                  コアアライメント 姿勢チェック
+                  <br />
+                  身体と指導法
                   <br />
                   呼吸法
                   <br />
-                  イクイップメントの構造
-                  <br />
-                  インストラクターの心得
-                  <br />
                   エクササイズ指導
+                  <br />
+                  用語集
                   <br />
                   キューイングの実践
                   <br />
                   プログラムデザイン
                   <br />
-                  身体領域別の問題点と指導法
-                  <br />
-                  姿勢チェックの原則
+                  インストラクターの心得
                 </div>
               </div>
 
