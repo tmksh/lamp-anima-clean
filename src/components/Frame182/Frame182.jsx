@@ -31,17 +31,17 @@ export const Frame182 = ({
       className={`flex flex-col items-center w-full relative ${className}`}
     >
       <div className="flex flex-col w-full max-w-[1280px] items-center justify-center gap-8 md:gap-[50px] px-4 md:px-12 lg:px-[90px] py-12 md:py-20 relative flex-[0_0_auto] bg-[url(/img/frame-14.png)] bg-cover bg-[50%_50%]">
-        <div className="relative w-full max-w-[628px] h-auto flex flex-col items-center md:items-start">
-          <div className="[font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-3xl md:text-5xl lg:text-[64px] tracking-[0] leading-[normal] text-center md:text-left">
+        <div className="relative w-full max-w-[628px] h-auto flex flex-col items-center">
+          <div className="[font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-3xl md:text-5xl lg:text-[64px] tracking-[0] leading-[normal] text-center">
             Request &amp; Contact
           </div>
 
-          <div className="font-medium text-[#111111] text-2xl md:text-4xl lg:text-5xl leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center md:text-left mt-2">
+          <div className="font-medium text-[#111111] text-2xl md:text-4xl lg:text-5xl leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center mt-2">
             受講申し込み・お問い合わせ
           </div>
         </div>
 
-        <p className="relative w-full font-normal text-transparent text-sm md:text-base lg:text-lg leading-6 md:leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center md:text-left px-2 md:px-0">
+        <p className="relative w-full font-normal text-transparent text-sm md:text-base lg:text-lg leading-6 md:leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center px-2 md:px-0">
           <span className="text-[#111111]">
             受講のお申し込みはもちろん、受講を迷っている方や疑問がある方もこちらの
           </span>

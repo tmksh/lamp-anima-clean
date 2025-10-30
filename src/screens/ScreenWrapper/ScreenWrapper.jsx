@@ -35,12 +35,12 @@ export const ScreenWrapper = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0 page-fade-in"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2575"
     >
       <Frame5 />
       <Group1 />
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <div className="flex h-auto min-h-[150px] md:min-h-[238px] items-center justify-center gap-2.5 px-4 md:px-12 lg:px-[90px] py-8 md:py-[50px] relative self-stretch w-full">
           <div className="relative w-full max-w-[1000px] font-normal text-[#111111] text-sm md:text-base lg:text-lg leading-6 md:leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center md:text-left">
             マシンピラティスインストラクター養成コースは、初めての方でも安心してわかりやすいステップ式のカリキュラムで進みます。下記のステップで、資格取得に向けた学びをしっかり進めていきます。
@@ -48,10 +48,10 @@ export const ScreenWrapper = () => {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <Frame6 />
       </ScrollAnimation>
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <Frame7 />
       </ScrollAnimation>
       <FixedCTA />

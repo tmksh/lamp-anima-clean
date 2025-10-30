@@ -5,9 +5,9 @@ export const Frame9 = () => {
     <div className="flex flex-col items-center w-full relative flex-[0_0_auto]">
       <div className="relative w-full max-w-[1280px] h-auto min-h-[477px] md:min-h-[577px]">
         <img
-          className="absolute top-[77px] left-0 w-full h-[300px] md:h-[400px] object-cover"
+          className="absolute top-[77px] left-0 w-full h-[300px] md:h-[400px] object-cover object-[50%_30%]"
           alt="Rectangle"
-          src="/img/rectangle-60-3.png"
+          src="/img/koushi-fv.jpg"
         />
 
         <div className="flex flex-col w-[90%] max-w-[600px] items-center justify-center px-6 md:px-[150px] py-[25px] absolute top-[317px] md:top-[417px] left-[50%] -translate-x-1/2 bg-[#fcfbf9] rounded-[10px]">

@@ -1,24 +1,25 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
-export const useScrollAnimation = (options = {}) => {
+export const useScrollAnimation = () => {
   const elementRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const element = elementRef.current;
     if (!element) return;
 
+    // Intersection Observerの設定（パフォーマンス最適化）
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
-          // 一度表示されたら監視を解除（再度非表示にしない）
+          // クラスを追加するだけ（状態管理なし）
+          element.classList.add('is-visible');
+          // 一度表示されたら監視を解除
           observer.unobserve(element);
         }
       },
       {
-        threshold: options.threshold || 0.1,
-        rootMargin: options.rootMargin || '0px 0px -100px 0px',
+        threshold: 0.05, // より早めにトリガー
+        rootMargin: '0px 0px -50px 0px', // 少し早めに表示
       }
     );
 
@@ -29,8 +30,8 @@ export const useScrollAnimation = (options = {}) => {
         observer.unobserve(element);
       }
     };
-  }, [options.threshold, options.rootMargin]);
+  }, []);
 
-  return [elementRef, isVisible];
+  return elementRef;
 };
 

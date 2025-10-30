@@ -99,7 +99,7 @@ export const Frame1 = () => {
                 </div>
 
                 <img
-                  className="relative w-[calc(100vw-8rem)] max-w-[340px] md:w-[180px] h-auto"
+                  className="relative w-[calc(100vw-8rem)] max-w-[340px] md:w-[280px] lg:w-[320px] h-auto"
                   alt="Element"
                   src="/img/2025-10-20-0-37-16-1.png"
                 />
@@ -198,14 +198,58 @@ export const Frame1 = () => {
         </div>
 
         <div className="flex flex-col items-center gap-6 relative w-full">
-          <div className="flex flex-col items-center gap-3 px-8 md:px-12 py-6 md:py-8 relative bg-white rounded-xl shadow-lg border-2 border-[#d2a3cb]">
-            <div className="flex items-baseline gap-2 relative">
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#d2a3cb] text-6xl md:text-7xl lg:text-8xl tracking-[0] leading-[normal] drop-shadow-md">
-                ¥495,000
+          {/* 早期割引の強調バナー */}
+          <div className="flex flex-col items-center gap-3 px-6 md:px-8 py-5 md:py-6 relative bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-xl shadow-2xl w-full max-w-[700px] border-2 border-white">
+            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-xl md:text-2xl tracking-[1px] leading-[normal]">
+              🎉 早期割引キャンペーン実施中！
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-base md:text-lg tracking-[0] leading-[normal]">
+                開講45日前までのお申し込みで
+              </div>
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-3xl md:text-4xl tracking-[0] leading-[normal] drop-shadow-lg">
+                33,000円OFF
+              </div>
+            </div>
+          </div>
+
+          {/* 早期割引価格（最も目立つ） */}
+          <div className="flex flex-col items-center gap-4 px-10 md:px-16 py-8 md:py-10 relative bg-gradient-to-br from-white to-[#fef9fc] rounded-2xl shadow-2xl border-[6px] border-double border-[#e8b5d8] w-full max-w-[700px] transform hover:scale-105 transition-transform">
+            <div className="flex flex-col items-center gap-2">
+              <div className="inline-flex items-center gap-2 px-5 md:px-6 py-2 bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-full shadow-md">
+                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-base md:text-lg tracking-[0] leading-[normal]">
+                  ⭐ 早期割引価格 ⭐
+                </div>
+              </div>
+              <div className="flex items-baseline gap-2 relative">
+                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#d2a3cb] text-7xl md:text-8xl lg:text-9xl tracking-[0] leading-[normal] drop-shadow-lg">
+                  ¥462,000
+                </div>
+              </div>
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#e8b5d8] text-2xl md:text-3xl tracking-[0] leading-[normal]">
+                ▲33,000円OFF
               </div>
             </div>
             
-            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-lg md:text-xl tracking-[0] leading-[normal]">
+            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-xl md:text-2xl tracking-[0] leading-[normal]">
+              税込
+            </div>
+          </div>
+
+          {/* 通常価格（控えめ） */}
+          <div className="flex flex-col items-center gap-2 px-6 md:px-8 py-4 md:py-5 relative bg-white rounded-xl shadow-md border-2 border-[#d2a3cb] w-full max-w-[500px] opacity-70">
+            <div className="flex flex-col items-center gap-1">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#999999] text-xs md:text-sm tracking-[0] leading-[normal]">
+                通常価格
+              </div>
+              <div className="flex items-baseline gap-2 relative">
+                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#999999] text-4xl md:text-5xl tracking-[0] leading-[normal]">
+                  ¥495,000
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#999999] text-sm md:text-base tracking-[0] leading-[normal]">
               税込
             </div>
           </div>
@@ -224,9 +268,21 @@ export const Frame1 = () => {
             </div>
           </div>
 
-          <p className="relative w-full max-w-[600px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-base tracking-[0] leading-6 md:leading-7 text-center px-4">
-            プライベートクラス2回、グループレッスン受講無制限、スタジオ貸し出し、オンライン動画アクセスなど、すべて含まれた価格です。
-          </p>
+          <div className="flex flex-col items-center gap-3 w-full max-w-[600px] px-4">
+            <p className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-base tracking-[0] leading-6 md:leading-7 text-center">
+              プライベートクラス2回、グループレッスン受講無制限、スタジオ貸し出し、オンライン動画アクセスなど、すべて含まれた価格です。
+            </p>
+            
+            <div className="flex flex-col items-center gap-2 w-full p-4 bg-white rounded-lg border border-[#d2a3cb]">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#d2a3cb] text-sm md:text-base tracking-[0] leading-[normal]">
+                分割払いについて
+              </div>
+              <p className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-xs md:text-sm tracking-[0] leading-5 md:leading-6 text-center">
+                最大36回まで対応可能（月々約14,000円〜）<br />
+                教育ローンのご利用も可能です。お気軽にご相談ください。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

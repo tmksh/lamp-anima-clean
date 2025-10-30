@@ -35,12 +35,12 @@ export const ScreenScreen = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0 page-fade-in"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2618"
     >
       <Frame2 />
       <GroupWrapper />
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <div className="flex w-full max-w-[1280px] h-auto min-h-[150px] md:min-h-[238px] items-center justify-center gap-2.5 px-4 md:px-12 lg:px-[90px] py-8 md:py-[50px] relative">
           <div className="relative w-full max-w-[1000px] font-normal text-[#111111] text-sm md:text-base lg:text-lg leading-6 md:leading-[30.6px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0] text-center md:text-left">
             こちらでは、マシンピラティスインストラクター養成コースに関するよくある質問とその回答をご紹介します。受講にあたっての不安や疑問を解消し、安心してコースをスタートできるようサポートします。
@@ -48,10 +48,10 @@ export const ScreenScreen = () => {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <Frame3 />
       </ScrollAnimation>
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <Frame4 />
       </ScrollAnimation>
       <FixedCTA />

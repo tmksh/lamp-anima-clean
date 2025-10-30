@@ -37,7 +37,7 @@ export const Top = () => {
 
   return (
     <div
-      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0 page-fade-in"
+      className="flex flex-col items-center w-full relative bg-[#fcfbf9] overflow-x-hidden pb-[72px] lg:pb-0"
       data-model-id="4058:2143"
     >
       <Frame49
@@ -50,18 +50,17 @@ export const Top = () => {
         to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
       />
       <Frame />
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <FrameWrapper />
       </ScrollAnimation>
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <DivWrapper />
       </ScrollAnimation>
-      <ScrollAnimation animation="fade-in">
+      <ScrollAnimation>
         <Div />
       </ScrollAnimation>
-      <ScrollAnimation animation="fade-in">
-        <Frame182Wrapper />
-      </ScrollAnimation>
+      <div className="h-12 md:h-20"></div>
+      <Frame182Wrapper />
       <FixedCTA />
     </div>
   );
