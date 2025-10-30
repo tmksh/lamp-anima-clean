@@ -22,7 +22,7 @@ export const Frame1 = () => {
               </div>
 
               <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
-                ・実技50Ｈ（見学5h、自己練習25h Bodyあり20h含む）
+                ・実技50h（内訳：見学5h＋自己練習25h＋Bodyあり20h）
               </div>
 
               <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
