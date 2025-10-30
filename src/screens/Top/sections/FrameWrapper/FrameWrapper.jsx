@@ -130,9 +130,9 @@ export const FrameWrapper = () => {
             <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-[5px] relative self-stretch w-full flex-[0_0_auto]">
               <div className="flex w-full md:w-[180px] lg:w-[215px] items-center gap-3 md:gap-[15px] relative">
                 <img
-                  className="relative w-8 md:w-10 h-8 md:h-10 aspect-[1] flex-shrink-0"
+                  className="relative w-10 md:w-12 h-10 md:h-12 flex-shrink-0 -ml-1"
                   alt="Image"
-                  src="/img/1.svg"
+                  src="/img/lesson-icon.svg"
                 />
 
                 <div className="relative flex-1 font-bold text-black text-base md:text-lg leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">

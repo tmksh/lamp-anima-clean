@@ -18,11 +18,11 @@ export const Frame1 = () => {
 
             <div className="w-full md:w-[348px] flex flex-col items-start gap-2.5 relative flex-1 min-w-0">
               <div className="relative self-stretch mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
-                ・座学+実技 30時間
+                ・座学➕実技30H
               </div>
 
               <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
-                ・実習 25時間 (見学、自主練習を含む)
+                ・実技50Ｈ（見学5h、自己練習25h Bodyあり20h含む）
               </div>
 
               <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
@@ -34,11 +34,7 @@ export const Frame1 = () => {
               </div>
 
               <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
-                ・スタジオ貸し出しあり
-              </div>
-
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
-                ・オンライン動画で振り返り可能
+                ・スタジオ貸出しあり
               </div>
             </div>
           </div>
@@ -67,7 +63,7 @@ export const Frame1 = () => {
                   <br />
                   コアアライメント 姿勢チェック
                   <br />
-                  身体と指導法
+                  身体領域別の問題点と指導法
                   <br />
                   呼吸法
                   <br />

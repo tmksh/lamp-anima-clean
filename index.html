@@ -40,9 +40,20 @@
         text-decoration: none;
       }
       
-      /* 画像の最適化 */
+      /* 画像の最適化と高品質レンダリング */
       img {
         content-visibility: auto;
+        image-rendering: -webkit-optimize-contrast;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      /* JPG/PNG画像を高品質表示 */
+      img[src$=".jpg"],
+      img[src$=".jpeg"],
+      img[src$=".png"] {
+        image-rendering: high-quality;
+        image-rendering: -webkit-optimize-contrast;
       }
     </style>
     <link href="tailwind.css" rel="stylesheet" />
