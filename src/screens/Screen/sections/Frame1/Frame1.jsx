@@ -214,24 +214,24 @@ export const Frame1 = () => {
           </div>
 
           {/* 早期割引価格（最も目立つ） */}
-          <div className="flex flex-col items-center gap-4 px-10 md:px-16 py-8 md:py-10 relative bg-gradient-to-br from-white to-[#fef9fc] rounded-2xl shadow-2xl border-[6px] border-double border-[#e8b5d8] w-full max-w-[700px] transform hover:scale-105 transition-transform">
+          <div className="flex flex-col items-center gap-4 px-6 md:px-16 py-6 md:py-10 relative bg-gradient-to-br from-white to-[#fef9fc] rounded-2xl shadow-2xl border-4 md:border-[6px] border-double border-[#e8b5d8] w-full max-w-[700px] transform hover:scale-105 transition-transform">
             <div className="flex flex-col items-center gap-2">
-              <div className="inline-flex items-center gap-2 px-5 md:px-6 py-2 bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-full shadow-md">
-                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-base md:text-lg tracking-[0] leading-[normal]">
+              <div className="inline-flex items-center gap-2 px-3 md:px-6 py-1.5 md:py-2 bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-full shadow-md">
+                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-sm md:text-lg tracking-[0] leading-[normal]">
                   ⭐ 早期割引価格 ⭐
                 </div>
               </div>
-              <div className="flex items-baseline gap-2 relative">
-                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#d2a3cb] text-7xl md:text-8xl lg:text-9xl tracking-[0] leading-[normal] drop-shadow-lg">
+              <div className="flex items-baseline gap-1 md:gap-2 relative">
+                <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#d2a3cb] text-5xl md:text-8xl lg:text-9xl tracking-[0] leading-[normal] drop-shadow-lg">
                   ¥462,000
                 </div>
               </div>
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#e8b5d8] text-2xl md:text-3xl tracking-[0] leading-[normal]">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-[#e8b5d8] text-xl md:text-3xl tracking-[0] leading-[normal]">
                 ▲33,000円OFF
               </div>
             </div>
             
-            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-xl md:text-2xl tracking-[0] leading-[normal]">
+            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-lg md:text-2xl tracking-[0] leading-[normal]">
               税込
             </div>
           </div>
