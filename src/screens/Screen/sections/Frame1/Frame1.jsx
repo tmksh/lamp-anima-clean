@@ -199,8 +199,8 @@ export const Frame1 = () => {
 
         <div className="flex flex-col items-center gap-6 relative w-full">
           {/* 早期割引の強調バナー */}
-          <div className="flex flex-col items-center gap-3 px-6 md:px-8 py-5 md:py-6 relative bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-xl shadow-2xl w-full max-w-[700px] border-2 border-white">
-            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-xl md:text-2xl tracking-[1px] leading-[normal]">
+          <div className="flex flex-col items-center gap-3 px-4 md:px-8 py-5 md:py-6 relative bg-gradient-to-r from-[#e8b5d8] to-[#d2a3cb] rounded-xl shadow-2xl w-full max-w-[700px] border-2 border-white">
+            <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-bold text-white text-base md:text-2xl tracking-[0] md:tracking-[1px] leading-[normal] whitespace-nowrap">
               🎉 早期割引キャンペーン実施中！
             </div>
             <div className="flex flex-col items-center gap-2">
