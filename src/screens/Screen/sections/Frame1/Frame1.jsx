@@ -11,33 +11,33 @@ export const Frame1 = () => {
             src="/img/line-6-3.svg"
           />
 
-          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px]">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full overflow-x-hidden">
+            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px] flex-shrink-0">
               実施概要
             </div>
 
-            <div className="w-full md:w-[348px] flex flex-col items-start gap-2.5 relative">
-              <div className="relative self-stretch mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+            <div className="w-full md:w-[348px] flex flex-col items-start gap-2.5 relative flex-1 min-w-0">
+              <div className="relative self-stretch mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・座学+実技 30時間
               </div>
 
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・実習 25時間 (見学、自主練習を含む)
               </div>
 
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・プライベートクラス２回受講可能
               </div>
 
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・グループレッスン受講無制限
               </div>
 
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・スタジオ貸し出しあり
               </div>
 
-              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative self-stretch [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 ・オンライン動画で振り返り可能
               </div>
             </div>
@@ -51,12 +51,12 @@ export const Frame1 = () => {
             src="/img/line-6-3.svg"
           />
 
-          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px]">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full overflow-x-hidden">
+            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px] flex-shrink-0">
               講座内容
             </div>
 
-            <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 pl-0 pr-0 md:pr-[30px] py-0 relative flex-1 w-full">
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 pl-0 pr-0 md:pr-[30px] py-0 relative flex-1 w-full min-w-0">
               <div className="inline-flex flex-col items-start gap-2.5 relative flex-[0_0_auto] w-full md:w-auto">
                 <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-base md:text-[17px] tracking-[0] leading-8 md:leading-10">
                   ピラティスの歴史
@@ -115,33 +115,33 @@ export const Frame1 = () => {
             src="/img/line-6-3.svg"
           />
 
-          <div className="flex flex-col md:flex-row gap-6 md:gap-[70px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px]">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-[70px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full overflow-x-hidden">
+            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px] flex-shrink-0">
               スケジュール
             </div>
 
-            <div className="inline-flex flex-col items-start gap-2.5 relative flex-[0_0_auto]">
-              <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+            <div className="inline-flex flex-col items-start gap-2.5 relative flex-[0_0_auto] flex-1 min-w-0">
+              <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年1月17日(土)
               </div>
 
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年1月31日(土)
               </div>
 
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年2月14日(土)
               </div>
 
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年2月28日(土)
               </div>
 
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年3月14日(土)
               </div>
 
-              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-[17px] tracking-[0] leading-[28.9px] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] whitespace-nowrap">
                 2026年3月28日(土)
               </div>
             </div>
@@ -155,17 +155,17 @@ export const Frame1 = () => {
             src="/img/line-6-3.svg"
           />
 
-          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px]">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-[120px] items-start pl-0 md:pl-5 pr-0 py-0 relative w-full overflow-x-hidden">
+            <div className="relative w-fit mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#dec17a] text-xl md:text-2xl tracking-[0] leading-[40.8px] flex-shrink-0">
               実技指導
             </div>
 
-            <div className="flex-1 w-full flex flex-col items-start gap-2.5 relative">
-              <div className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[28.9px]">
+            <div className="flex-1 w-full flex flex-col items-start gap-2.5 relative min-w-0">
+              <div className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-xs md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px] break-words">
                 リフォーマー：立位4ワーク + 座位38ワーク =計42ワーク
               </div>
 
-              <div className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-sm md:text-[17px] tracking-[0] leading-[28.9px]">
+              <div className="relative w-full [font-family:'Shippori_Mincho',Helvetica] font-normal text-[#111111] text-xs md:text-[17px] tracking-[0] leading-[24px] md:leading-[28.9px]">
                 マット：8ワーク
               </div>
             </div>

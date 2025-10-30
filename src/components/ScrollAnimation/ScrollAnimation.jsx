@@ -10,7 +10,7 @@ export const ScrollAnimation = ({
   return (
     <div
       ref={ref}
-      className={`animate-on-scroll ${className}`}
+      className={`animate-on-scroll w-full ${className}`}
     >
       {children}
     </div>
