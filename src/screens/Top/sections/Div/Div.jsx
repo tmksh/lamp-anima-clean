@@ -3,16 +3,16 @@ import { ConcreteComponentNode } from "../../../../components/ConcreteComponentN
 
 export const Div = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full max-w-[1280px] h-auto min-h-[600px] md:h-[600px] items-center justify-center gap-8 md:gap-[63px] px-4 md:px-0 py-12 md:py-0 relative bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
-      <div className="hidden md:block absolute top-7 left-36 w-[395px] h-[395px] rounded-[10px]" />
+    <div className="flex flex-col md:flex-row w-full h-auto min-h-[600px] md:h-[600px] items-center justify-between gap-8 md:gap-8 lg:gap-12 px-4 md:px-12 lg:px-16 py-12 md:py-0 relative bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
+      <div className="hidden md:block absolute top-7 left-12 w-[395px] h-[395px] rounded-[10px]" />
 
       <img
-        className="relative w-full md:w-[350px] lg:w-[400px] h-auto md:h-[500px] lg:h-[600px] object-cover rounded-lg md:rounded-none"
+        className="relative w-full md:w-[45%] lg:w-[42%] h-auto md:h-[500px] lg:h-[600px] object-cover rounded-lg md:rounded-none"
         alt="Img"
         src="/img/img-1515-2.png"
       />
 
-      <div className="w-full md:w-[450px] lg:w-[538px] items-start gap-6 md:gap-10 px-4 md:px-5 py-6 md:py-[30px] rounded-[10px] flex flex-col relative">
+      <div className="w-full md:flex-1 items-start gap-6 md:gap-10 px-4 md:px-5 py-6 md:py-[30px] rounded-[10px] flex flex-col relative">
         <div className="inline-flex flex-col items-start gap-5 relative flex-[0_0_auto] w-full">
           <div className="w-full relative h-auto flex flex-col items-start">
             <div className="[font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-4xl md:text-5xl lg:text-[64px] tracking-[0] leading-[normal]">

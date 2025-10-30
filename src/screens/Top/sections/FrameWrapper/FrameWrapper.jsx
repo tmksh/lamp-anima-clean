@@ -3,7 +3,8 @@ import { ConcreteComponentNode } from "../../../../components/ConcreteComponentN
 
 export const FrameWrapper = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full max-w-[1280px] justify-between gap-8 px-4 md:px-12 lg:px-[90px] py-12 md:py-20 items-center relative flex-[0_0_auto]">
+    <div className="flex flex-col md:flex-row w-full justify-center gap-8 px-4 md:px-8 py-12 md:py-20 items-center relative flex-[0_0_auto]">
+      <div className="flex flex-col md:flex-row w-full max-w-[1200px] justify-between gap-8 relative">
       <div className="inline-flex flex-col items-start gap-6 md:gap-[30px] relative flex-[0_0_auto] w-full md:w-auto">
         <div className="relative w-full md:w-[364px] h-auto flex flex-col items-start">
           <div className="[font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-4xl md:text-5xl lg:text-[64px] tracking-[0] leading-[normal]">
@@ -195,6 +196,7 @@ export const FrameWrapper = () => {
         alt="Image"
         src="/img/image-16.png"
       />
+      </div>
     </div>
   );
 };
