@@ -9,6 +9,7 @@ export const Frame9 = () => {
           alt="講師紹介"
           src="/img/koushi-fv.jpg"
           loading="eager"
+          fetchpriority="high"
           decoding="sync"
         />
 

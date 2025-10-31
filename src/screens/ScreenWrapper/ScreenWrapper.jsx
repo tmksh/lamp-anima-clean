@@ -8,6 +8,20 @@ import { ScrollAnimation } from "../../components/ScrollAnimation";
 
 export const ScreenWrapper = () => {
   useEffect(() => {
+    // FV画像をプリロード
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.href = '/img/juko-nagare.jpg';
+    link.fetchpriority = 'high';
+    document.head.appendChild(link);
+    
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
+
+  useEffect(() => {
     // ブラウザのスクロール復元機能を無効化
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';

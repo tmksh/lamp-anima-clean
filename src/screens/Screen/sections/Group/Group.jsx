@@ -8,6 +8,7 @@ export const Group = () => {
         alt="養成カリキュラム"
         src="/img/curriculum-fv.jpg"
         loading="eager"
+        fetchpriority="high"
         decoding="sync"
       />
 

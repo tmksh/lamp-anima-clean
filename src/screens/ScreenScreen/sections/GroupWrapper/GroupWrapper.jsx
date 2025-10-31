@@ -8,6 +8,7 @@ export const GroupWrapper = () => {
         alt="よくある質問"
         src="/img/faq-fv.jpg"
         loading="eager"
+        fetchpriority="high"
         decoding="sync"
       />
 

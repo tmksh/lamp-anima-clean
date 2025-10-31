@@ -8,6 +8,7 @@ export const Group2 = () => {
         alt="lampの魅力"
         src="/img/lamp-miryoku-fv.jpg"
         loading="eager"
+        fetchpriority="high"
         decoding="sync"
       />
 

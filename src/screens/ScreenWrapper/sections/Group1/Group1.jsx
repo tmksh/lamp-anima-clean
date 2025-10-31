@@ -8,6 +8,7 @@ export const Group1 = () => {
         alt="受講の流れ"
         src="/img/juko-nagare.jpg"
         loading="eager"
+        fetchpriority="high"
         decoding="sync"
       />
 
