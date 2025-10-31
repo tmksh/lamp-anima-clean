@@ -165,15 +165,15 @@
       }
     },
     {
-      "id": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx:186:8-to-src/screens/Screen/Screen.jsx",
+      "id": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx:187:8-to-src/screens/Screen/Screen.jsx",
       "source": "src/screens/Top/Top.jsx",
       "target": "src/screens/Screen/Screen.jsx",
       "data": {
         "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
         "trigger": {
           "element": "<ConcreteComponentNode\n          className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n          text=\"プラン詳細はこちら\"\n          to=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        />",
-          "line": 186,
-          "endLine": 190,
+          "line": 187,
+          "endLine": 191,
           "column": 8,
           "endColumn": 10,
           "sourceFile": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx"
