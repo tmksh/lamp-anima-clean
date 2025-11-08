@@ -42,7 +42,7 @@ export const Div = () => {
         <ConcreteComponentNode
           className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
           text="インストラクター紹介はこちら"
-          to="/u35611u24107u32057u20171"
+          to="/instructor"
         />
       </div>
     </div>

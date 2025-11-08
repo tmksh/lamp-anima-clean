@@ -51,11 +51,11 @@ export const App = () => {
       <Routes>
         <Route path="/*" element={<Top />} />
         <Route path="/topu12504u12442u12540u12471u12441" element={<Top />} />
-        <Route path="/u32946u25104u12459u12522u12461u12517u12521u12512" element={<Screen />} />
-        <Route path="/u12424u12367u12354u12427u36074u21839" element={<ScreenScreen />} />
-        <Route path="/u21463u35611u12398u27969u12428" element={<ScreenWrapper />} />
-        <Route path="/u35611u24107u32057u20171" element={<Screen4 />} />
-        <Route path="/lampu12398u32057u20171" element={<Lamp />} />
+        <Route path="/curriculum" element={<Screen />} />
+        <Route path="/faq" element={<ScreenScreen />} />
+        <Route path="/flow" element={<ScreenWrapper />} />
+        <Route path="/instructor" element={<Screen4 />} />
+        <Route path="/lamp" element={<Lamp />} />
       </Routes>
     </BrowserRouter>
   );

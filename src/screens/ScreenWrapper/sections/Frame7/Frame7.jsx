@@ -14,12 +14,12 @@ export const Frame7 = () => {
       path3="/img/path964-4.svg"
       path4="/img/path1620-4.svg"
       path5="/img/path1582-4.svg"
-      to="/lampu12398u32057u20171"
-      to1="/u35611u24107u32057u20171"
-      to2="/u32946u25104u12459u12522u12461u12517u12521u12512"
-      to3="/u21463u35611u12398u27969u12428"
-      to4="/u12424u12367u12354u12427u36074u21839"
-      to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
+      to="/lamp"
+      to1="/instructor"
+      to2="/curriculum"
+      to3="/flow"
+      to4="/faq"
+      to5="/curriculum"
     />
   );
 };

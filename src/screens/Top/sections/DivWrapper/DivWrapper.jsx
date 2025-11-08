@@ -45,7 +45,7 @@ export const DivWrapper = () => {
       <ConcreteComponentNode
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
         text="詳しくはこちら"
-        to="/lampu12398u32057u20171"
+        to="/lamp"
       />
     </div>
   );

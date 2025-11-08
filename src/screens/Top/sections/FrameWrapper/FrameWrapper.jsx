@@ -187,7 +187,7 @@ export const FrameWrapper = () => {
         <ConcreteComponentNode
           className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
           text="プラン詳細はこちら"
-          to="/u32946u25104u12459u12522u12461u12517u12521u12512"
+          to="/curriculum"
         />
       </div>
 
