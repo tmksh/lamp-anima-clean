@@ -6,7 +6,7 @@ export const FixedCTA = () => {
       <div className="flex items-center justify-center gap-3 px-4 py-3">
         {/* LINE登録ボタン */}
         <a
-          href="https://lin.ee/Txaoupt"
+          href="https://lin.ee/CNEbcGa"
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 flex items-center justify-center gap-2 h-12 bg-[#06c755] hover:bg-[#05b54a] transition-colors rounded-lg"
