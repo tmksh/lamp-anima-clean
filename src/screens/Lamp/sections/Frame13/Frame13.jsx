@@ -52,7 +52,11 @@ export const Frame13 = () => {
       {/* Item 03 */}
       <div className="relative w-full max-w-[1124.5px] h-auto flex flex-col md:flex-row gap-6 md:gap-0">
         <div className="relative w-full md:w-1/2 h-[250px] md:h-[300px] bg-[#d2a3cb] rounded-[10px] overflow-hidden order-1 md:order-1">
-          <div className="absolute top-[15px] md:top-[25px] left-[15px] md:left-[25px] w-[calc(100%-30px)] h-[calc(100%-30px)] bg-[url(/img/rectangle-59-2.png)] bg-cover bg-center" />
+          <img 
+            className="absolute top-[5px] md:top-[15px] left-[15px] md:left-[25px] w-[calc(100%-30px)] h-[calc(100%-30px)] object-cover" 
+            src="/img/lamp修正画像本番.jpg" 
+            alt="1人1人に寄り添った講義"
+          />
         </div>
 
         <div className="flex flex-col w-full md:w-1/2 min-h-[250px] items-start gap-3 md:gap-[15px] px-6 md:px-10 py-4 md:py-5 relative bg-[#ffffffcc] rounded-lg order-2 md:order-2 md:ml-[-56px] md:mt-[75px] z-10">
