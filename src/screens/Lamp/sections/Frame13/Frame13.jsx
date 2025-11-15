@@ -54,7 +54,7 @@ export const Frame13 = () => {
         <div className="relative w-full md:w-1/2 h-[250px] md:h-[300px] bg-[#d2a3cb] rounded-[10px] overflow-hidden order-1 md:order-1">
           <img 
             className="absolute top-[5px] md:top-[15px] left-[15px] md:left-[25px] w-[calc(100%-30px)] h-[calc(100%-30px)] object-cover" 
-            src="/img/S__4710415.jpg" 
+            src="/img/一人.jpg" 
             alt="1人1人に寄り添った講義"
           />
         </div>
