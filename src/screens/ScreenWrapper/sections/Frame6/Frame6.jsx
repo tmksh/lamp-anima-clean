@@ -16,7 +16,7 @@ export const Frame6 = () => {
         className="!left-[unset] !top-[unset]"
         divClassName="!text-[#111111]"
         divClassNameOverride="!h-[unset] !text-[#111111] !text-[17px] !leading-[28.9px]"
-        rectangle="/img/lamp修正画像本番.jpg"
+        rectangle="/img/S__4710414.jpg"
         text="講義受講"
         text1="マシンピラティスの基礎から応用まで、実践的な講義を受けられます。少人数制での指導により、スキルをしっかりと習得できます。"
         text2="02"
